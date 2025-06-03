@@ -1,14 +1,16 @@
-import React from 'react'
-import Navbar from './Component/Navbar'
-
+import React from "react";
+import Navbar from "./Component/Navbar";
+import HeroArea from "./Component/HeroArea";
+import { Footer } from "./Component/Footer";
 
 const App = () => {
   return (
-    <div className='bg-gray-500 h-screen w-screen'>
+    <div className=" ">
       <Navbar />
-    
+      <HeroArea />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
